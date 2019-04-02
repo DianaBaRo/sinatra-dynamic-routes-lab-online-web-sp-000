@@ -31,7 +31,7 @@ class App < Sinatra::Base
     when "add"
       @result = "#{@number1 + @number2}".to_s
       
-    
+
     end
   end
 
