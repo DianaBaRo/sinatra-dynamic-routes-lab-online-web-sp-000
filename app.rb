@@ -29,8 +29,8 @@ class App < Sinatra::Base
 
     case @operation
     when "add"
-      @result = @number1 + @number2
-      @result.to_s
+      @result = "#{@number1 + @number2}".to_s
+      
     
     end
   end
